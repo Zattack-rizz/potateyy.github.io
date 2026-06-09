@@ -1,0 +1,324 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta http-equiv="Content-Style-Type" content="text/css">
+  <title></title>
+  <meta name="Generator" content="Cocoa HTML Writer">
+  <meta name="CocoaVersion" content="2685.3">
+  <style type="text/css">
+    p.p1 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Helvetica}
+    p.p2 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Helvetica; min-height: 14.0px}
+  </style>
+</head>
+<body>
+<p class="p1">&lt;!DOCTYPE html&gt;</p>
+<p class="p1">&lt;html lang="en"&gt;</p>
+<p class="p1">&lt;head&gt;</p>
+<p class="p1">&lt;meta charset="UTF-8"&gt;</p>
+<p class="p1">&lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;</p>
+<p class="p1">&lt;title&gt;Potateyy | Discord Freelancer&lt;/title&gt;</p>
+<p class="p2"><br></p>
+<p class="p1">&lt;link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&amp;display=swap" rel="stylesheet"&gt;</p>
+<p class="p2"><br></p>
+<p class="p1">&lt;style&gt;</p>
+<p class="p1">*{</p>
+<p class="p1"><span class="Apple-converted-space">    </span>margin:0;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>padding:0;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>box-sizing:border-box;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>font-family:'Poppins',sans-serif;</p>
+<p class="p1">}</p>
+<p class="p2"><br></p>
+<p class="p1">body{</p>
+<p class="p1"><span class="Apple-converted-space">    </span>background:#0f172a;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>color:white;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>overflow-x:hidden;</p>
+<p class="p1">}</p>
+<p class="p2"><br></p>
+<p class="p1">.background{</p>
+<p class="p1"><span class="Apple-converted-space">    </span>position:fixed;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>inset:0;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>background:</p>
+<p class="p1"><span class="Apple-converted-space">        </span>radial-gradient(circle at top left,#8b5cf6 0%,transparent 35%),</p>
+<p class="p1"><span class="Apple-converted-space">        </span>radial-gradient(circle at bottom right,#06b6d4 0%,transparent 35%),</p>
+<p class="p1"><span class="Apple-converted-space">        </span>#0f172a;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>z-index:-1;</p>
+<p class="p1">}</p>
+<p class="p2"><br></p>
+<p class="p1">nav{</p>
+<p class="p1"><span class="Apple-converted-space">    </span>display:flex;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>justify-content:space-between;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>align-items:center;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>padding:25px 8%;</p>
+<p class="p1">}</p>
+<p class="p2"><br></p>
+<p class="p1">.logo{</p>
+<p class="p1"><span class="Apple-converted-space">    </span>font-size:1.8rem;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>font-weight:700;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>color:#a855f7;</p>
+<p class="p1">}</p>
+<p class="p2"><br></p>
+<p class="p1">.nav-links{</p>
+<p class="p1"><span class="Apple-converted-space">    </span>display:flex;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>gap:30px;</p>
+<p class="p1">}</p>
+<p class="p2"><br></p>
+<p class="p1">.nav-links a{</p>
+<p class="p1"><span class="Apple-converted-space">    </span>text-decoration:none;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>color:white;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>transition:.3s;</p>
+<p class="p1">}</p>
+<p class="p2"><br></p>
+<p class="p1">.nav-links a:hover{</p>
+<p class="p1"><span class="Apple-converted-space">    </span>color:#a855f7;</p>
+<p class="p1">}</p>
+<p class="p2"><br></p>
+<p class="p1">.hero{</p>
+<p class="p1"><span class="Apple-converted-space">    </span>min-height:85vh;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>display:flex;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>align-items:center;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>justify-content:center;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>text-align:center;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>padding:0 20px;</p>
+<p class="p1">}</p>
+<p class="p2"><br></p>
+<p class="p1">.hero-content{</p>
+<p class="p1"><span class="Apple-converted-space">    </span>max-width:900px;</p>
+<p class="p1">}</p>
+<p class="p2"><br></p>
+<p class="p1">.hero h1{</p>
+<p class="p1"><span class="Apple-converted-space">    </span>font-size:4rem;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>margin-bottom:15px;</p>
+<p class="p1">}</p>
+<p class="p2"><br></p>
+<p class="p1">.hero h1 span{</p>
+<p class="p1"><span class="Apple-converted-space">    </span>color:#a855f7;</p>
+<p class="p1">}</p>
+<p class="p2"><br></p>
+<p class="p1">.hero p{</p>
+<p class="p1"><span class="Apple-converted-space">    </span>color:#cbd5e1;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>font-size:1.2rem;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>margin-bottom:30px;</p>
+<p class="p1">}</p>
+<p class="p2"><br></p>
+<p class="p1">.buttons{</p>
+<p class="p1"><span class="Apple-converted-space">    </span>display:flex;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>justify-content:center;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>gap:15px;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>flex-wrap:wrap;</p>
+<p class="p1">}</p>
+<p class="p2"><br></p>
+<p class="p1">.btn{</p>
+<p class="p1"><span class="Apple-converted-space">    </span>padding:14px 28px;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>border-radius:12px;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>text-decoration:none;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>font-weight:600;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>transition:.3s;</p>
+<p class="p1">}</p>
+<p class="p2"><br></p>
+<p class="p1">.primary{</p>
+<p class="p1"><span class="Apple-converted-space">    </span>background:#a855f7;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>color:white;</p>
+<p class="p1">}</p>
+<p class="p2"><br></p>
+<p class="p1">.primary:hover{</p>
+<p class="p1"><span class="Apple-converted-space">    </span>transform:translateY(-3px);</p>
+<p class="p1"><span class="Apple-converted-space">    </span>box-shadow:0 10px 25px rgba(168,85,247,.4);</p>
+<p class="p1">}</p>
+<p class="p2"><br></p>
+<p class="p1">.secondary{</p>
+<p class="p1"><span class="Apple-converted-space">    </span>border:2px solid #a855f7;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>color:white;</p>
+<p class="p1">}</p>
+<p class="p2"><br></p>
+<p class="p1">.secondary:hover{</p>
+<p class="p1"><span class="Apple-converted-space">    </span>background:#a855f7;</p>
+<p class="p1">}</p>
+<p class="p2"><br></p>
+<p class="p1">section{</p>
+<p class="p1"><span class="Apple-converted-space">    </span>padding:100px 8%;</p>
+<p class="p1">}</p>
+<p class="p2"><br></p>
+<p class="p1">.section-title{</p>
+<p class="p1"><span class="Apple-converted-space">    </span>text-align:center;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>font-size:2.5rem;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>margin-bottom:50px;</p>
+<p class="p1">}</p>
+<p class="p2"><br></p>
+<p class="p1">.cards{</p>
+<p class="p1"><span class="Apple-converted-space">    </span>display:grid;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>grid-template-columns:repeat(auto-fit,minmax(250px,1fr));</p>
+<p class="p1"><span class="Apple-converted-space">    </span>gap:25px;</p>
+<p class="p1">}</p>
+<p class="p2"><br></p>
+<p class="p1">.card{</p>
+<p class="p1"><span class="Apple-converted-space">    </span>background:rgba(255,255,255,.05);</p>
+<p class="p1"><span class="Apple-converted-space">    </span>border:1px solid rgba(255,255,255,.1);</p>
+<p class="p1"><span class="Apple-converted-space">    </span>backdrop-filter:blur(10px);</p>
+<p class="p1"><span class="Apple-converted-space">    </span>padding:30px;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>border-radius:20px;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>transition:.3s;</p>
+<p class="p1">}</p>
+<p class="p2"><br></p>
+<p class="p1">.card:hover{</p>
+<p class="p1"><span class="Apple-converted-space">    </span>transform:translateY(-8px);</p>
+<p class="p1"><span class="Apple-converted-space">    </span>border-color:#a855f7;</p>
+<p class="p1">}</p>
+<p class="p2"><br></p>
+<p class="p1">.card h3{</p>
+<p class="p1"><span class="Apple-converted-space">    </span>margin-bottom:15px;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>color:#a855f7;</p>
+<p class="p1">}</p>
+<p class="p2"><br></p>
+<p class="p1">.about{</p>
+<p class="p1"><span class="Apple-converted-space">    </span>max-width:900px;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>margin:auto;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>text-align:center;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>color:#cbd5e1;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>line-height:1.8;</p>
+<p class="p1">}</p>
+<p class="p2"><br></p>
+<p class="p1">.contact{</p>
+<p class="p1"><span class="Apple-converted-space">    </span>text-align:center;</p>
+<p class="p1">}</p>
+<p class="p2"><br></p>
+<p class="p1">.contact-box{</p>
+<p class="p1"><span class="Apple-converted-space">    </span>max-width:700px;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>margin:auto;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>padding:40px;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>border-radius:20px;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>background:rgba(255,255,255,.05);</p>
+<p class="p1"><span class="Apple-converted-space">    </span>border:1px solid rgba(255,255,255,.1);</p>
+<p class="p1">}</p>
+<p class="p2"><br></p>
+<p class="p1">.contact h3{</p>
+<p class="p1"><span class="Apple-converted-space">    </span>font-size:2rem;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>margin-bottom:15px;</p>
+<p class="p1">}</p>
+<p class="p2"><br></p>
+<p class="p1">.discord-tag{</p>
+<p class="p1"><span class="Apple-converted-space">    </span>color:#a855f7;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>font-size:1.3rem;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>font-weight:600;</p>
+<p class="p1">}</p>
+<p class="p2"><br></p>
+<p class="p1">footer{</p>
+<p class="p1"><span class="Apple-converted-space">    </span>text-align:center;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>padding:30px;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>color:#94a3b8;</p>
+<p class="p1">}</p>
+<p class="p2"><br></p>
+<p class="p1">@media(max-width:768px){</p>
+<p class="p1"><span class="Apple-converted-space">    </span>.hero h1{</p>
+<p class="p1"><span class="Apple-converted-space">        </span>font-size:2.8rem;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>.nav-links{</p>
+<p class="p1"><span class="Apple-converted-space">        </span>display:none;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>}</p>
+<p class="p1">}</p>
+<p class="p1">&lt;/style&gt;</p>
+<p class="p1">&lt;/head&gt;</p>
+<p class="p1">&lt;body&gt;</p>
+<p class="p2"><br></p>
+<p class="p1">&lt;div class="background"&gt;&lt;/div&gt;</p>
+<p class="p2"><br></p>
+<p class="p1">&lt;nav&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;div class="logo"&gt;Potateyy&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;div class="nav-links"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;a href="#services"&gt;Services&lt;/a&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;a href="#about"&gt;About&lt;/a&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;a href="#contact"&gt;Contact&lt;/a&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;/div&gt;</p>
+<p class="p1">&lt;/nav&gt;</p>
+<p class="p2"><br></p>
+<p class="p1">&lt;section class="hero"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;div class="hero-content"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;h1&gt;Hi, I'm &lt;span&gt;Potateyy&lt;/span&gt;&lt;/h1&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>Professional Discord Freelancer specializing in server setup,</p>
+<p class="p1"><span class="Apple-converted-space">            </span>community management, staffing systems, and French translation.</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;/p&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;div class="buttons"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;a href="#contact" class="btn primary"&gt;Hire Me&lt;/a&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;a href="#services" class="btn secondary"&gt;View Services&lt;/a&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;/div&gt;</p>
+<p class="p1">&lt;/section&gt;</p>
+<p class="p2"><br></p>
+<p class="p1">&lt;section id="services"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;h2 class="section-title"&gt;My Services&lt;/h2&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;div class="cards"&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;div class="card"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;h3&gt;⚙️ Discord Setup&lt;/h3&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>Complete Discord server creation including channels,</p>
+<p class="p1"><span class="Apple-converted-space">                </span>permissions, roles, bots, automations, and professional layouts.</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;/div&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;div class="card"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;h3&gt;👑 Discord Management&lt;/h3&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>Ongoing server management, moderation systems,</p>
+<p class="p1"><span class="Apple-converted-space">                </span>engagement improvements, and community growth.</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;/div&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;div class="card"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;h3&gt;🛡️ Discord Staffing&lt;/h3&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>Staff recruitment systems, applications,</p>
+<p class="p1"><span class="Apple-converted-space">                </span>training guides, handbooks, and team organization.</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;/div&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;div class="card"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;h3&gt;🇫🇷 French Translation&lt;/h3&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>Accurate English ↔ French translations for Discord servers,</p>
+<p class="p1"><span class="Apple-converted-space">                </span>announcements, rules, guides, and community content.</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;/div&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;/div&gt;</p>
+<p class="p1">&lt;/section&gt;</p>
+<p class="p2"><br></p>
+<p class="p1">&lt;section id="about"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;h2 class="section-title"&gt;About Me&lt;/h2&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;div class="about"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>I'm Potateyy, a Discord freelancer focused on helping communities</p>
+<p class="p1"><span class="Apple-converted-space">            </span>look professional, stay organized, and grow successfully.</p>
+<p class="p1"><span class="Apple-converted-space">            </span>Whether you need a brand-new server, a complete management overhaul,</p>
+<p class="p1"><span class="Apple-converted-space">            </span>staff systems, or bilingual French support, I can help create a</p>
+<p class="p1"><span class="Apple-converted-space">            </span>polished experience for your members.</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;/div&gt;</p>
+<p class="p1">&lt;/section&gt;</p>
+<p class="p2"><br></p>
+<p class="p1">&lt;section id="contact" class="contact"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;div class="contact-box"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;h3&gt;Let's Work Together&lt;/h3&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>Interested in hiring me for your Discord community?</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;br&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;p class="discord-tag"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>Discord: potateyy</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;/div&gt;</p>
+<p class="p1">&lt;/section&gt;</p>
+<p class="p2"><br></p>
+<p class="p1">&lt;footer&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>© 2026 Potateyy • Discord Freelancer</p>
+<p class="p1">&lt;/footer&gt;</p>
+<p class="p2"><br></p>
+<p class="p1">&lt;/body&gt;</p>
+<p class="p1">&lt;/html&gt;</p>
+</body>
+</html>
